@@ -1,0 +1,32 @@
+.custom-product{
+    /* background-color:  #000 !important; */
+    background-color:  #fff !important;
+    display: flex;                  /*Kích hoạt flexbox*/
+    flex-direction: row;            /*Thiết lập hướng chính*/
+    justify-content: center;      /*Căn chỉnh nội dung bên trong container có flexbox*/
+    align-items: center;           /*Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+    align-content: center;         /*Căn chỉnh hàng (cột) theo hướng vuông góc (chỉ hiệu lực khi nhiều hàng hoặc cột)*/
+}
+
+.card
+{
+    text-decoration: none;
+}
+.card-body{
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.m_card{
+    width: 15rem; 
+    margin: 10px 10px 10px 10px;
+}
+.card a{
+    border-radius: 3px !important;
+    background-color: #60666b !important;
+    padding: 10px 110px 10px 110px !important;
+    margin: 1px 0px 0px 10px !important;
+}
+.card-img-top{
+    margin-top: 3px;
+}
